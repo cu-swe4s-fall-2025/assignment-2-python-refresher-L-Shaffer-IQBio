@@ -4,5 +4,5 @@ fires_column = 4
 file_name = 'Agrofood_co2_emission.csv'
 from my_utils import get_column
 
-fires = get_column(file_name, country_column, country, fires_column)
+fires = get_column(file_name, country_column, country, result_column=fires_column)
 print(fires)
