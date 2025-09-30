@@ -2,6 +2,12 @@
 # python-refresher
 
 ### changelog
+##### V.3.0
+- Mean, Median, Std operations added for print_fires output
+- Unit and functional test implimented for print_fires
+- Stupid Stimple Bash Testing framework incorporated 
+
+##### V.2.0
 - get_column implemented to process csv line by line
 - my_utils.py & print_fires.py updated
 - United States forest fires printed
