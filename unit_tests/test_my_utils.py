@@ -23,8 +23,8 @@ class TestMyUtils(unittest.TestCase):
 
     def test_get_column(self):
         from my_utils import get_column
-        result = get_column("Agrofood_co2_emission.csv", 1, "United States of America", 4)
-        self.assertEqual(result, [1999, 1999, 1999, 1999, 1999, 1999, 3286, 1553, 3099, 3578, 3687, 534, 1475, 1224, 1201, 915, 1086, 1558, 2068, 1093, 912, 1330, 1173, 1284, 1336, 2235, 1438, 2664, 2457, 1190, 5405]) 
+        result = get_column("unit_tests/Sample_Agrofood.csv", 1, "Zambia", 4)
+        self.assertEqual(result, [18296, 18296, 18296, 18296, 18296, 18296, 8418, 8110, 7605]) 
 
 if __name__ == '__main__':
     unittest.main()
