@@ -2,6 +2,10 @@
 # python-refresher
 
 ### changelog
+##### V.4.0
+- Continuous Integration implemented for automated testing with GitHub actions
+- Unit, functional, and style checks with pycodestyle in place
+
 ##### V.3.0
 - Mean, Median, Std operations added for print_fires output
 - Unit and functional test implimented for print_fires
