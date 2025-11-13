@@ -1,5 +1,26 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/_G_SdF8U)
 # python-refresher
+
+### Installation
+
+Download data set
+
+```bash
+curl -L "https://docs.google.com/uc?export=download&id=1Wytf3ryf9EtOwaloms8HEzLG0yjtRqxr" -o Agrofood_co2_emission.csv
+```
+
+### Dependencies
+
+- python3
+
+### Useage
+
+Run print_fires.py script to process csv
+
+```bash
+python3 print_fires.py
+```
+
+### Change Log
 
 - get_column implemented to process csv line by line
 - my_utils.py & print_fires.py updated

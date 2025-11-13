@@ -1,8 +1,12 @@
-country='United States of America'
+# Extract and print the number of fires in the United States from a CSV file
+from my_utils import get_column
+
+country = 'United States of America'
 country_column = 1
 fires_column = 4
 file_name = 'Agrofood_co2_emission.csv'
-from my_utils import get_column
 
-fires = get_column(file_name, country_column, country, result_column=fires_column)
+fires = get_column(file_name, country_column, country,
+                   result_column=fires_column)
 print(fires)
+# Expected output: List of fire counts for the United States
