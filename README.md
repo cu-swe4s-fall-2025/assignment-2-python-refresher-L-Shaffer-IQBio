@@ -1,13 +1,40 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/_G_SdF8U)
-# python-refresher
+### Installation
+
+Download data set
+
+```bash
+curl -L "https://docs.google.com/uc?export=download&id=1Wytf3ryf9EtOwaloms8HEzLG0yjtRqxr" -o Agrofood_co2_emission.csv
+```
+
+### Dependencies
+
+- python3
+- argparse
+
+### Usage
+
+```bash
+#correct command
+python3 print_fires.py --country "Zimbabwe" --country_column 1 \
+--fires_column 3 --file_name "Agrofood_co2_emission.csv"
+
+#incorrect output
+#additional underscore in _country_column
+#misprint in file name
+python3 print_fire.py --country "Zimbabwe" --_country_column 1 \
+--fires_column 3 --file_name "Agrofood_co2_emission.csv"
+
+#incorrect output
+#column numbers were off | resulting open list
+python3 print_fires.py --country "Zimbabwe" --country_column 5 \
+--fires_column 2 --file_name "Agrofood_co2_emission.csv"
+```
 
 ### changelog
+
 - get_column implemented to process csv line by line
 - my_utils.py & print_fires.py updated
 - United States forest fires printed
 - conversion to float & int
 - addition of argparse command line interface
-
-### example usage
-`python3 print_fires.py --country "Zimbabwe" --country_column 1 \
---fires_column 3 --file_name "Agrofood_co2_emission.csv"`
+- v2.1 docstrings incorporated & README update

@@ -1,3 +1,5 @@
+# per assignment request: three examples of running
+# two examples of error due to misprint in file name and wrong column numbers
 #!/bin/bash
 #correct command
 python3 print_fires.py --country "Zimbabwe" --country_column 1 \
